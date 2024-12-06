@@ -1,0 +1,4 @@
+services:
+  Sp4tz\MenuBundle\Menu\MenuManager:
+    arguments:
+      $menus: '%sp4tz_menu.menus%'

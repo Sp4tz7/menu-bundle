@@ -1,0 +1,25 @@
+{
+    "name": "sp4tz/menu-bundle",
+    "description": "A Symfony bundle for managing menus.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sp4tz\\MenuBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "sp4tz"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "symfony/framework-bundle": "^5.4|^6.0|^7.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    }
+}

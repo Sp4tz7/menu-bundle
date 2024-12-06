@@ -1,0 +1,5 @@
+<ul>
+    {% for item in menu.items %}
+        <li><a href="{{ path(item.route) }}">{{ item.label }}</a></li>
+    {% endfor %}
+</ul>
